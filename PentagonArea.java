@@ -24,6 +24,6 @@ class PentagonArea {
         double length = scn.nextDouble();
         double area = pntArea.computeArea(length);
         //Display area on the console
-        System.out.println("The area of the pentagon is:%4.2f\n" , area);        
+        System.out.println("The area of the pentagon is: " + area);        
     }
 }
